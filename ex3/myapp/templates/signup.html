@@ -1,0 +1,13 @@
+<!-- accounts/templates/signup.html -->
+ <center>
+  <h1>Kamaraj college of engineeing and technology</h1>
+  <h3>Web application using Django framework</h3>
+  <h4>sereen fathima gani(22uit103)</h4>
+    <h1>Registration From</h1>
+    
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Sign up" />
+  </form>
+</center>
